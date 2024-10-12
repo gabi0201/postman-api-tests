@@ -10,7 +10,6 @@ Este repositório contém um conjunto de testes automatizados para uma API REST 
   - [Importar a Coleção no Postman](#importar-a-coleção-no-postman)
   - [Executar os Testes](#executar-os-testes)
 - [Testes de Performance](#testes-de-performance)
-- [Contribuindo](#contribuindo)
 
 ## Descrição
 
@@ -50,8 +49,4 @@ Aqui está um exemplo de código utilizado nos testes:
 pm.test("Response time is less than 200ms", function () {
     pm.expect(pm.response.responseTime).to.be.below(200);
 });
-
-## Contribuindo
-Sinta-se à vontade para abrir uma issue ou enviar um pull request caso queira sugerir melhorias ou correções.
-
 
