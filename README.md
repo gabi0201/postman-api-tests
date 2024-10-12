@@ -33,10 +33,6 @@ Além disso, são realizados testes para garantir que o tempo de resposta da API
 ### Importar a Coleção no Postman
 
 1. Clone este repositório ou faça o download do arquivo `.postman_collection.json` para sua máquina.
-
-   ```bash
-   git clone https://github.com/seu-usuario/testes-api-postman.git
-  
 2. Abra o Postman e clique em **Import**.
 3. Selecione o arquivo `.postman_collection.json` baixado.
 4. Agora você verá a coleção com todas as requisições (GET, POST, PUT, DELETE) e os testes de performance configurados.
